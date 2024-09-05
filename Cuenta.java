@@ -3,6 +3,12 @@ public class Cuenta {
     String numero;
     String tipo;
 
+    // public Cuenta(String tipo, String numero, double saldo) {
+    //     this.tipo = tipo;
+    //     this.numero = numero;
+    //     this.saldo = saldo;
+    // }
+
     double consultarSaldo() {
         return saldo;
     }
